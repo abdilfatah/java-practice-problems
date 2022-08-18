@@ -16,7 +16,6 @@ public class PrimeCount {
 
         int prime = 0;
         for (int i = start; i <= end; i++){
-
                 if (isPrime(i)){
                     prime++;
                 }
@@ -25,6 +24,6 @@ public class PrimeCount {
         return prime;
     }
     public static void main(String[] args){
-        System.out.println(primeCount(10, 30));
+        System.out.println(primeCount(5, 5));
     }
 }
